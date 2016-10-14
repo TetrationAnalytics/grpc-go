@@ -38,10 +38,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/naming"
+	"github.com/TetrationAnalytics/grpc-go/codes"
+	"github.com/TetrationAnalytics/grpc-go/credentials"
+	"github.com/TetrationAnalytics/grpc-go/grpclog"
+	"github.com/TetrationAnalytics/grpc-go/naming"
 )
 
 // Address represents a server the client connects to.

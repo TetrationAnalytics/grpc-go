@@ -44,13 +44,13 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	hwpb "google.golang.org/grpc/examples/helloworld/helloworld"
-	lbpb "google.golang.org/grpc/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/naming"
+	"github.com/TetrationAnalytics/grpc-go"
+	"github.com/TetrationAnalytics/grpc-go/metadata"
+	"github.com/TetrationAnalytics/grpc-go/codes"
+	"github.com/TetrationAnalytics/grpc-go/credentials"
+	hwpb "github.com/TetrationAnalytics/grpc-go/examples/helloworld/helloworld"
+	lbpb "github.com/TetrationAnalytics/grpc-go/grpclb/grpc_lb_v1"
+	"github.com/TetrationAnalytics/grpc-go/naming"
 )
 
 var (
